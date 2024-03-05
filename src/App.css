@@ -6,66 +6,57 @@
 
 header {
   display: flex;
+ 
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 10vh;
-  background-color: black;
+
+  
+  
 
 }
-.eyeFooter {
+.dddDiv {
+
+}
+.headerimg {
+position: absolute;
+top: -7vw;
+width: 100vw;
+}
+.Footimg {
   position: absolute;
-  top: 100px;
-  width: 200px;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: 200px;
-
-}
-
-
-.dTest {
-  position: relative;
-  
-  width: 100000vw;
-  height: 20vh;
-  
-  left: 0px;
-   top: 50px;
-   rotate: 180deg;
-  
-   background: repeat-x;
-
-
-}
-.dTestFooter {
-  position: relative;
-  
-  width: 100000vw;
-  height: 20vh;
-  bottom: 100px;
-
+  width: 100vw;
  
-   background: repeat-x;
-
+  bottom: -12vw;
 
 }
+.backg {
+  
+  width: 100vw;
+
+}
+
+
 footer {
-   display: flex;
-  
-    width: 100vw;
-    height: 5vh;
-    background-color: black;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 5vh;
+ 
   
 }
 section {
+  position: relative;
   display: flex;
     width: 100vw;
-    height: 85vh;
+    height: 90vh;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background:  url('./components/img/backg.png') no-repeat;
+    background-size: 100vw;
 
 }
 .boxOne {
