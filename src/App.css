@@ -1,13 +1,52 @@
+
+
 .main {
- 
+ background-color: brown;
 }
 
 header {
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
   width: 100vw;
-  height: 5vh;
+  height: 10vh;
   background-color: black;
+
+}
+.eyeFooter {
+  position: absolute;
+  top: 100px;
+  width: 200px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+
+}
+
+
+.dTest {
+  position: relative;
+  
+  width: 100000vw;
+  height: 20vh;
+  
+  left: 0px;
+   top: 50px;
+   rotate: 180deg;
+  
+   background: repeat-x;
+
+
+}
+.dTestFooter {
+  position: relative;
+  
+  width: 100000vw;
+  height: 20vh;
+  bottom: 100px;
+
+ 
+   background: repeat-x;
 
 
 }
@@ -23,21 +62,37 @@ footer {
 section {
   display: flex;
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
 }
 .boxOne {
-  width: 25vw;
+  width: 25vh;
   height: 25vh;
   resize: none;
   background-color: aqua;
 }
 .boxTwo {
-  width: 25vw;
+  width: 25vh;
   height: 25vh;
   resize: none;
   background-color: rgb(247, 0, 0);
+}
+.divButton {
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+
+}
+.buttonCod {
+  width: 10vh;
+  height: 10vh;
+  background-color: blue;
+}
+.buttonDesCod {
+  width: 10vh;
+  height: 10vh;
+  background-color: blue;
 }
