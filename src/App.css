@@ -1,20 +1,43 @@
-
+.main {
+ 
+}
 
 header {
+  display: flex;
+  
   width: 100vw;
-  height: 3vw;
+  height: 5vh;
   background-color: black;
 
 
 }
+footer {
+   display: flex;
+  
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+  
+  
+}
 section {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 .boxOne {
   width: 25vw;
-  height: 25vw;
+  height: 25vh;
   resize: none;
   background-color: aqua;
+}
+.boxTwo {
+  width: 25vw;
+  height: 25vh;
+  resize: none;
+  background-color: rgb(247, 0, 0);
 }
