@@ -7,7 +7,7 @@ function Dimg() {
   // Import result is the URL of your image
   return (
     <div className='dddDiv'>
-        <img className='headerimg' src={fotimg} alt="d" />
+        <img id='Headeri' className='headerimg' src={fotimg} alt="d" />
        
         
     </div>

@@ -1,6 +1,7 @@
 
 
 .main {
+  
  background-color: brown;
 }
 
@@ -16,9 +17,7 @@ header {
   
 
 }
-.dddDiv {
 
-}
 .headerimg {
 position: absolute;
 top: -7vw;
@@ -60,10 +59,22 @@ section {
 
 }
 .boxOne {
-  width: 25vh;
-  height: 25vh;
+  display: flex;
+  width: 45vh;
+  height: 60vh;
+ 
+  background: url('./components/img/box1.png') no-repeat;
+  background-size: 100%;
+  
+}
+.boxOneText {
+  margin: 39px 15px 10px 15px;
+  
+  width: 45vh;
+  height: 52vh;
+  position: relative;
   resize: none;
-  background-color: aqua;
+  background: none;
 }
 .boxTwo {
   width: 25vh;

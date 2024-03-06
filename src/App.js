@@ -17,7 +17,10 @@ function App() {
       
       
       <section>
-         <textarea typeof='text' itemID='criptografar-texarea' className='boxOne' placeholder="Digite seu texto..."></textarea>
+        <div className='boxOne'>
+          <textarea typeof='text' itemID='criptografar-texarea' className='boxOneText' placeholder="Digite seu texto..."></textarea>
+
+        </div>
               <div className='divButton'>
                 <button className='buttonCod'></button>
                 <button className='buttonDesCod'></button>
