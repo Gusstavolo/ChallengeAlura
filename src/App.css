@@ -98,6 +98,7 @@ section {
   font-style: normal;
   color: aliceblue;
   border: none;
+
   position: relative;
   resize: none;
   background: none;
@@ -115,6 +116,7 @@ section {
   background: url('./components/img/ossocripto.png') no-repeat;
   background-size: 100%;
   border: 0;
+  cursor: pointer;
 }
 .buttonDesCod {
   width: 25vh;
@@ -122,4 +124,5 @@ section {
   background: url('./components/img/ossodes.png') no-repeat;
   background-size: 100%;
   border: 0;
+  cursor: pointer;
 }

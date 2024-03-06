@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Anim.css'
 import Dimg from './components/imgd';
 import Fimg from './components/imgdFoot';
 import Backg from './components/Background';
@@ -11,8 +12,6 @@ function App() {
     <div  className='main' >
       
       <header >
-          
-        
       </header>
       
       

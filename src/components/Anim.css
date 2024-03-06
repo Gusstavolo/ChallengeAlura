@@ -1,0 +1,34 @@
+@keyframes moveHeader {
+    from{ top: -7vw;}
+    to{
+        top: -6.7vw;
+    }
+    
+}
+@keyframes moveFooter {
+    from{ bottom: -12vw;}
+    to{
+        bottom: -11.7vw;
+    }
+    
+}
+
+
+.headerimg {
+    top: -7vw;
+
+    animation-name: moveHeader;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+.Footimg {
+    
+    animation-name: moveFooter;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+
+}
