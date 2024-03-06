@@ -25,8 +25,11 @@ function App() {
                 <button className='buttonCod'></button>
                 <button className='buttonDesCod'></button>
               </div>
-              
-              <textarea typeof='text' itemID='descriptografar-texarea' className='boxTwo' placeholder="Digite seu texto..."></textarea>
+          <div className='boxTwo'>
+
+            <textarea typeof='text' itemID='descriptografar-texarea' className='boxTwoText' placeholder="Digite seu texto..."></textarea>
+
+          </div>
 
         
       </section>
