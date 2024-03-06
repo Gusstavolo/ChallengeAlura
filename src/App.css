@@ -110,12 +110,16 @@ section {
 
 }
 .buttonCod {
-  width: 10vh;
-  height: 10vh;
-  background-color: blue;
+  width: 25vh;
+  height: 12vh;
+  background: url('./components/img/ossocripto.png') no-repeat;
+  background-size: 100%;
+  border: 0;
 }
 .buttonDesCod {
-  width: 10vh;
-  height: 10vh;
-  background-color: blue;
+  width: 25vh;
+  height: 12vh;
+  background: url('./components/img/ossodes.png') no-repeat;
+  background-size: 100%;
+  border: 0;
 }
