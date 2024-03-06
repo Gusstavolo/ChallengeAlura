@@ -8,11 +8,7 @@ function Dimg() {
   return (
     <div className='dddDiv'>
         <img id='Headeri' className='headerimg' src={fotimg} alt="d" />
-       
-        
     </div>
-        
-
 
   );
 }

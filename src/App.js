@@ -4,7 +4,8 @@ import './components/Anim.css'
 
 import Dimg from './components/imgd';
 import Fimg from './components/imgdFoot';
-import Backg from './components/Background';
+
+
 import React from 'react';
 import {clickButtonCripto, clickButtonDescripto } from './components/criptoconfig.jsx';
 
@@ -22,8 +23,11 @@ function App() {
 
         </div>
               <div className='divButton'>
-                <button onClick={clickButtonCripto} className='buttonCod'></button>
-                <button onClick={clickButtonDescripto} className='buttonDesCod'></button>
+                
+              <button onClick={clickButtonCripto} className='buttonCod'></button>
+
+              <button onClick={clickButtonDescripto} className='buttonDesCod'></button>
+
               </div>
           <div className='boxTwo'>
 
