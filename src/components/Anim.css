@@ -1,21 +1,22 @@
+
 @keyframes moveHeader {
-    from{ top: -7vw;}
+    from{ top: -14vw;}
     to{
-        top: -6.7vw;
+        top: -13.7vw;
     }
     
 }
 @keyframes moveFooter {
-    from{ bottom: -12vw;}
+    from{ bottom: -18vw;}
     to{
-        bottom: -11.7vw;
+        bottom: -17.7vw;
     }
     
 }
 
 
 .headerimg {
-    top: -7vw;
+   
 
     animation-name: moveHeader;
     animation-duration: 2.1s;

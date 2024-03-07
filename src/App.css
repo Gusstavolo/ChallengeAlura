@@ -19,14 +19,14 @@ header {
 
 .headerimg {
 position: absolute;
-top: -7vw;
+top: -14vw;
 width: 100vw;
 }
 .Footimg {
   position: absolute;
   width: 100vw;
  
-  bottom: -12vw;
+  bottom: -18vw;
 
 }
 .backg {
@@ -59,47 +59,53 @@ section {
 }
 .boxOne {
   display: flex;
+
   width: 45vh;
   height: 63vh;
- 
+ justify-content: center;
+ align-items: center;
   background: url('./components/img/box1.png') no-repeat;
   background-size: 100%;
   
 }
 .boxOneText {
-  margin: 39px 15px 10px 15px;
-  width: 45vh;
+  
+  width: 40vh;
   height: 52vh;
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: aliceblue;
+  font-size: 1rem;
   border: none;
-  position: relative;
+  outline: none;
   resize: none;
   background: none;
+  overflow: auto;
 }
 .boxTwo {
   display: flex;
   width: 45vh;
   height: 63vh;
+  justify-content: center;
+  align-items: center;
  
   background: url('./components/img/box2.png') no-repeat;
   background-size: 100%;
 }
 .boxTwoText {
-  margin: 39px 15px 10px 15px;
-  width: 45vh;
+  width: 40vh;
   height: 52vh;
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: aliceblue;
+  font-size: 1rem;
   border: none;
-
-  position: relative;
+  outline: none;
   resize: none;
   background: none;
+  overflow: auto;
   
 }
 .divButton {
