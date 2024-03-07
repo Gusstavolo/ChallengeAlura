@@ -4,7 +4,7 @@ export function clickButtonCripto() {
         
         if (textAreaCripto && textAreaCripto.value) {
             var txtValue = textAreaCripto.value;
-            txtValue = txtValue.replace(/e/g, "long").replace(/i/g, "pouuyn").replace(/a/g, "ober").replace(/u/g, "udumb");
+            txtValue = txtValue.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/u/g, "ufat").replace(/o/g, "ober");
             textAreaDescripto.value = txtValue;
         }
     }
@@ -15,7 +15,7 @@ export function clickButtonCripto() {
         
         if (textAreaDescripto && textAreaDescripto.value) {
             var txtValueDes = textAreaDescripto.value;
-            txtValueDes = txtValueDes.replace(/long/g, "e").replace(/ober/g, "a").replace(/udumb/g, "u").replace(/pouuyn/g, "i");
+            txtValueDes = txtValueDes.replace(/enter/g, "e").replace(/ai/g, "a").replace(/ufat/g, "u").replace(/imes/g, "i").replace(/ober/g, "o");
             textAreaDescripto.value = txtValueDes;
         }
     }
