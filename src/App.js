@@ -7,7 +7,7 @@ import Fimg from './components/imgdFoot';
 
 
 import React from 'react';
-import {clickButtonCripto, clickButtonDescripto } from './components/criptoconfig.jsx';
+import {clickButtonCripto, clickButtonDescripto, buttonCopy } from './components/criptoconfig.jsx';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
               <button onClick={clickButtonCripto} className='buttonCod'></button>
 
               <button onClick={clickButtonDescripto} className='buttonDesCod'></button>
-              <div className='stoneInfo'></div>
+              <button className='stoneInfo' />
 
               </div>
           <div className='boxTwo'>
@@ -35,7 +35,7 @@ function App() {
             <textarea typeof='text' id='descriptografar-texarea' className='boxTwoText' placeholder="Digite seu texto..." />
     
           </div>
-          <div className='stoneCopy'></div>
+          <button onClick={buttonCopy} className='stoneCopy' />
         
       </section>
       

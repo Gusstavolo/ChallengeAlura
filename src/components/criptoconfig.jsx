@@ -19,3 +19,8 @@ export function clickButtonCripto() {
             textAreaDescripto.value = txtValueDes;
         }
     }
+   export function buttonCopy() {
+        var txtCopy = document.getElementById('descriptografar-texarea');
+        txtCopy.select();
+        document.execCommand('copy');
+    }

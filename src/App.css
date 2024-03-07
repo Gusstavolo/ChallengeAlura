@@ -136,14 +136,18 @@ section {
   height: 17vh;
   background: url('./components/img/stoone.png') no-repeat center;
   background-size: 100%;
+  border: 0;
+  cursor: pointer;
 
 }
 .stoneCopy {
   position: relative;
   width: 4vh;
   height: 4vh;
-  bottom: -25vh;
+  bottom: -23vh;
   left: -6vh;
   background: url('./components/img/stoneCopy.png') no-repeat center;
   background-size: 100%;
+  border: 0;
+  cursor: pointer;
 }
