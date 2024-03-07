@@ -44,13 +44,13 @@ export function clickCloseInfo() {
             }
 
 
-        overlayInfo.style.display = 'none';
+        
 
 
         }, 100);
 
         setTimeout(() => {
-                
+                overlayInfo.style.display = 'none';
                 if (Foot){
                 Foot.style.animation = 'moveFooter 2s alternate infinite';
             }
