@@ -112,6 +112,7 @@ section {
   display: flex;
   flex-direction:column;
   gap: 10px;
+  align-items: center;
 
 }
 .buttonCod {
@@ -129,4 +130,20 @@ section {
   background-size: 100%;
   border: 0;
   cursor: pointer;
+}
+.stoneInfo {
+  width: 17vh;
+  height: 17vh;
+  background: url('./components/img/stoone.png') no-repeat center;
+  background-size: 100%;
+
+}
+.stoneCopy {
+  position: relative;
+  width: 4vh;
+  height: 4vh;
+  bottom: -25vh;
+  left: -6vh;
+  background: url('./components/img/stoneCopy.png') no-repeat center;
+  background-size: 100%;
 }

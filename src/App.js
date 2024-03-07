@@ -27,21 +27,24 @@ function App() {
               <button onClick={clickButtonCripto} className='buttonCod'></button>
 
               <button onClick={clickButtonDescripto} className='buttonDesCod'></button>
+              <div className='stoneInfo'></div>
 
               </div>
           <div className='boxTwo'>
 
-            <textarea typeof='text' id='descriptografar-texarea' className='boxTwoText' placeholder="Digite seu texto..."></textarea>
-
+            <textarea typeof='text' id='descriptografar-texarea' className='boxTwoText' placeholder="Digite seu texto..." />
+    
           </div>
-
+          <div className='stoneCopy'></div>
         
       </section>
       
       <footer>
      
       
-      </footer>
+      </footer>            
+      
+
       <Fimg />
      <Dimg ></Dimg>
     </div>
