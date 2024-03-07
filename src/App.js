@@ -8,7 +8,7 @@ import Fimg from './components/imgdFoot';
 
 import React from 'react';
 import {clickButtonCripto, clickButtonDescripto, buttonCopy } from './components/criptoconfig.jsx';
-
+import { clickInfo, clickCloseInfo } from './components/Animations.jsx';
 function App() {
   return (
     <div  className='main' >
@@ -27,7 +27,7 @@ function App() {
               <button onClick={clickButtonCripto} className='buttonCod'></button>
 
               <button onClick={clickButtonDescripto} className='buttonDesCod'></button>
-              <button className='stoneInfo' />
+              <button onClick={clickInfo} className='stoneInfo' />
 
               </div>
           <div className='boxTwo'>
@@ -47,6 +47,7 @@ function App() {
 
       <Fimg />
      <Dimg ></Dimg>
+     <div onClick={clickCloseInfo} id='overlayInfo' className='overlay'></div>
     </div>
   );
 }

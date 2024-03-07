@@ -151,3 +151,13 @@ section {
   border: 0;
   cursor: pointer;
 }
+.overlay {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0vh;
+  width: 65vw;
+  height: 90vh;
+  background: url('./components/img/placa.png') no-repeat center;
+  background-size: 100%;
+}

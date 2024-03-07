@@ -10,7 +10,6 @@ export function clickButtonCripto() {
     }
     
     export function clickButtonDescripto() {
-        const textAreaCripto = document.getElementById("criptografar-texarea");
         const textAreaDescripto = document.getElementById("descriptografar-texarea");
         
         if (textAreaDescripto && textAreaDescripto.value) {

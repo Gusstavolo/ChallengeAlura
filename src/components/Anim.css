@@ -13,23 +13,85 @@
     }
     
 }
+@keyframes moveHeaderClose {
+    from {
+        top: 0vw;
+    }
+    to {
+        top: -14vw;
+    }
+    
+}
+@keyframes closeHeader {
+    from {
+        top: -14vw;
+    }
+    to {
+        top: 0vw;
+    }
+    
+}
+@keyframes moveFooterClose {
+    from{bottom: 0vw;
+
+    }
+    to {
+        bottom: -18vw;
+    }
+    
+}
+    
+
+@keyframes closeFooter {
+    from{bottom: -18vw;
+
+    }
+    to {
+        bottom: 0vw;
+    }
+    
+}
 
 
 .headerimg {
-   
-
     animation-name: moveHeader;
     animation-duration: 2.1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
+    animation-delay: 0.9s;
 }
+
 .Footimg {
     
     animation-name: moveFooter;
     animation-duration: 2.1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
     animation-delay: 0.9s;
+
+}
+
+
+@keyframes placeRight {
+    from{
+        right: -300vh;
+    }
+    to{
+        right: 0vh;
+    }
+    
+}
+@keyframes placeRightClose {
+    from{
+        right: 0vh;
+    }
+    to{
+        right: -300vh;
+    }
+    
+}
+.overlay {
+    
 
 }

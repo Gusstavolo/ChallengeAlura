@@ -7,7 +7,7 @@ function Fimg() {
   // Import result is the URL of your image
   return (
     <div className='dddDiv'>
-        <img id='FootI' className='Footimg' src={footer} alt="d" />
+        <img id='FootId' className='Footimg' src={footer} alt="d" />
 
     </div>
         
