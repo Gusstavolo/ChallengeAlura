@@ -229,6 +229,9 @@ section {
 
 }
 @media (max-width: 490px){
+  .main {
+    position: fixed;
+  }
   .boxOne,
  .boxTwo{
   left: 2vh;
