@@ -161,3 +161,119 @@ section {
   background: url('./components/img/placa.png') no-repeat center;
   background-size: 100%;
 }
+
+
+
+
+@media (max-width: 2100px) {
+  .overlay {
+    width: 60vw;
+   height: 96vh;
+  }
+  
+}
+@media (max-width: 1300px) {
+  section {
+    background-size: 123vw;
+  }
+}
+@media (max-width: 992px) {
+  section {
+    background-size: 148vw;
+  }
+}
+@media (max-width: 835px){
+ section {
+  flex-direction: row;
+  background-size: 200vw;
+  background-position: center;
+ }
+ .divButton {
+  position: absolute;
+  flex-direction: row;
+  bottom: 15vh;
+ }
+ .buttonDesCod,
+ .buttonCod {
+  position: relative;
+     width: 18vh;
+     height: 9vh;
+     left: 4.1vh;
+ }
+ .stoneInfo {
+  position: relative;
+    width: 10vh;
+     height: 10vh;
+     left: 8vh;
+ }
+ .stoneCopy {
+
+  bottom: -10vh;
+ }
+
+ .boxOne,
+ .boxTwo{
+  position: relative;
+  width: 45vh;
+  height: 69vh;
+  bottom: 5vh;
+ }
+ .boxOneText,
+ .boxTwoText {
+  position: relative;
+  width: 40vh;
+  height: 53vh;
+  bottom: 3vh;
+
+ }
+
+}
+@media (max-width: 490px){
+  .boxOne,
+ .boxTwo{
+  left: 2vh;
+  width: 23vh;
+  height: 33vh;
+ 
+ }
+ .boxOneText,
+ .boxTwoText {
+  
+  width: 18vh;
+  height: 26vh;
+  bottom: 0vh;
+
+ }
+ section {
+  background-size: 400vw;
+  background-position: center;
+ }
+ .divButton {
+  position: absolute;
+  flex-direction: row;
+  bottom: 26vh;
+ }
+ .buttonDesCod,
+ .buttonCod {
+  position: relative;
+     width: 14vh;
+     height: 8vh;
+     left: 4.1vh;
+ }
+ .stoneCopy {
+  width: 3vh;
+  bottom: -7vh;
+  left: -5vh;
+ }
+ .stoneInfo {
+  position: relative;
+    width: 5vh;
+     height: 5vh;
+     top: 5vh;
+     left: -14.5vh;
+ }
+ .overlay {
+  width: 90vw;
+ height: 106vh;
+}
+}
