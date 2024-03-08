@@ -12,6 +12,12 @@
         <li>A letra "o" é convertida para "ober"</li>
         <li>A letra "u" é convertida para "ufat"</li>
 </ul>
+<h2>Tecnologias Utilizadas</h2>
+
+<ul>
+  <li>React.js</li>
+</ul>
+
 <h2>Características</h2>
 <ul>
         <li>Desenvolvido usando React, uma biblioteca JavaScript para construção de interfaces de usuário.</li>
