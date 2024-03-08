@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import './components/Anim.css'
 
@@ -13,8 +13,7 @@ function App() {
   return (
     <div  className='main' >
       
-      <header >
-      </header>
+      <header ></header>
       
       
       <section>
@@ -25,7 +24,6 @@ function App() {
               <div className='divButton'>
                 
               <button onClick={clickButtonCripto} className='buttonCod'></button>
-
               <button onClick={clickButtonDescripto} className='buttonDesCod'></button>
               <button onClick={clickInfo} className='stoneInfo' />
 
@@ -39,14 +37,11 @@ function App() {
         
       </section>
       
-      <footer>
-     
-      
-      </footer>            
+      <footer> </footer>            
       
 
       <Fimg />
-     <Dimg ></Dimg>
+     <Dimg />
      <div onClick={clickCloseInfo} id='overlayInfo' className='overlay'></div>
     </div>
   );
